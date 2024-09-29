@@ -36,12 +36,11 @@ img{
 }
 .section font:hover{
     color: red;
-    
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
 }
 .section p{
-    font-size: 25pxx;
+    font-size: 25px;
 }
 .ingredients ul li:hover{
     color: white;
