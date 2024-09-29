@@ -48,7 +48,9 @@ img{
     cursor: pointer;
     font-size: 30px; 
 }
-
+.instructions h2{
+     font-size: 30px;
+}
 .instructions ol li{
     padding: 5px;
     color: white;
