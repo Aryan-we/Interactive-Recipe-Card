@@ -1,0 +1,89 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#eee;
+    font-family: sans-serif;
+}
+.recipe-card{
+    background-color: #fff;
+    margin: 5%;
+    border-radius: 8px;
+    border: 0px solid;
+    padding: 20px;
+    
+      
+}
+.recipe-card:hover{
+    transition: 2s;
+    box-shadow: 5px 5px 8px black;
+}
+h1{
+    text-align: center;
+    
+}
+.ingredients{
+    background-color: #fff;
+    display: none;
+}
+img{
+    border-radius:  50%;
+}
+.ingredients ul li{
+    padding: 5px;
+    list-style: none;
+    
+}
+.section font:hover{
+    color: red;
+    
+    cursor: pointer;
+    font-size: 20px;
+}
+.ingredients ul li:hover{
+    color: white;
+    background-color: #64e26b;
+    cursor: pointer;
+    font-size: 20px; 
+}
+.instructions ol li{
+    padding: 5px;
+
+}
+.instructions ol li{
+    color: white;
+    background-color: #64e26b;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.instructions h2,#next_btn{
+    display: none;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 50;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+.recipe-card h1{
+    background-image: linear-gradient(to left,red,green,orange,blue);
+    width:40%;
+    color: white;
+    margin: 20px auto;
+    border-radius: 30px;
+    padding: 10px;
+}
+.recipe-card h1:hover{
+     background-image: linear-gradient(to right,red,green,orange,blue);
+     
+}
