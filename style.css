@@ -114,6 +114,11 @@ button:hover{
 .section p{
     font-size: 16px;
 }
+.section font:hover{
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+}
 .instructions ol li{
     font-size: 25px;
 }
