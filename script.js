@@ -23,7 +23,7 @@ for(let i=0;i<cooking_list.length;i++){
 cooking.addEventListener("click",function(){
     document.getElementById("next_btn").style.display="inline";
     document.getElementsByClassName("instructions")[0].querySelector("h2").style.display="block";
-
+     document.getElementsByClassName("instructions")[0].querySelector("h2").style.fontSize="30px";
 
     if(document.getElementById("startCooking").innerText=="Start Cooking"){
     let next_btn=document.getElementById("next_btn");
