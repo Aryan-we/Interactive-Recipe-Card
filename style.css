@@ -40,13 +40,13 @@ img{
     font-size: 30px;
 }
 .section p{
-    font-size: 25px;
+    font-size: 30px;
 }
 .ingredients ul li:hover{
     color: white;
     background-color: #64e26b;
     cursor: pointer;
-    font-size: 20px; 
+    font-size: 30px; 
 }
 
 .instructions ol li{
@@ -103,7 +103,7 @@ button:hover{
     background-color: red;
     color: black;
     border: none;
-    margin: 7px;
+    margin: 7px auto;
     border-radius: 20px;
     font-size: 20px;
 
@@ -112,4 +112,7 @@ button:hover{
     background-color: green;
     color: white;
 }
+    .section p{
+        font-size: 20px;
+    }
 }
