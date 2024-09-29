@@ -49,15 +49,13 @@ img{
     cursor: pointer;
     font-size: 20px; 
 }
+
 .instructions ol li{
     padding: 5px;
-
-}
-.instructions ol li{
     color: white;
     background-color: #64e26b;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
     
 }
 .instructions h2,#next_btn{
