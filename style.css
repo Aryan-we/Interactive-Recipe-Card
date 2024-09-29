@@ -40,6 +40,9 @@ img{
     cursor: pointer;
     font-size: 20px;
 }
+.section p{
+    font-size: 25pxx;
+}
 .ingredients ul li:hover{
     color: white;
     background-color: #64e26b;
@@ -67,9 +70,9 @@ button{
     color: black;
     border: none;
     margin: 10px;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 50;
+    border-radius: 20px;
+    font-size: 30px;
+
 }
 button:hover{
     background-color: green;
@@ -86,4 +89,15 @@ button:hover{
 .recipe-card h1:hover{
      background-image: linear-gradient(to right,red,green,orange,blue);
      
+}
+@media (max-width: 900px){
+    .recipe-card h1{
+        background-image: linear-gradient(to left,red,green,orange,blue);
+        width:60%;
+        color: white;
+        margin: 10px auto;
+        border-radius: 30px;
+        padding: 5px;
+        font-size: 20px;
+    }  
 }
