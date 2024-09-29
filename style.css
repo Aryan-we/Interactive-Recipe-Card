@@ -115,11 +115,9 @@ button:hover{
     font-size: 16px;
 }
 .instructions ol li{
-    font-size: 20px;
+    font-size: 25px;
 }
-.instructions ol li:hover{
-     font-size: 25px;
-}
+
 .ingredients ul li{
     font-size: 20px;
 }
